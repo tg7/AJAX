@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+<title></title>
+</head>
+
+<!--Google Font API-->
+<link href='https://fonts.googleapis.com/css?family=Changa+One' rel='stylesheet' type='text/css'>
+
+<!--Bootstrap CDN-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!--Font Awesome CDN-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!--Ionicons CDN-->
+<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+<!--jQuery CDN-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<body>
+	
+<!--Start Of Container-->
+
+<div class="container">
+
+	<div class="jumbotron text-center" id="top">
+		<h1><i class="fa fa-dribbble" aria-hidden="true"></i> SportsTastic <i class="ionicons ion-ios-baseball"></h1></i>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4 border" id="teamNames">
+			<h4>Team Names</h4>
+
+				<!--Team Name Input-->
+				<form class="form-inline">
+  				<div class="form-group">
+    				<input type="text" class="form-control" id="exampleInputName2" placeholder="Enter Team Here...">
+  				</div>
+  				<button type="submit" class="btn btn-success">Submit</button>
+				</form>
+
+					<hr>
+
+				 	<button type="button" class="btn btn-default space typeTeam" data-team="mets">New York Mets</button>
+				 	<button type="button" class="btn btn-default space" data-team="yankees">New York Yankees</button>
+				 	<button type="button" class="btn btn-default space" data-team="warriors">Golden State Warriors</button>
+				 	<button type="button" class="btn btn-default space" data-team="cavs">Cleveland Cavaliers</button>
+				 	<button type="button" class="btn btn-default space" data-team="jets">New York Jets</button>
+				 	<button type="button" class="btn btn-default space" data-team="giants">New York Giants</button>
+				 	<button type="button" class="btn btn-default space" data-team="redsox">Boston Red Sox</button>
+				 	<button type="button" class="btn btn-default space" data-team="flyers">Philadelphia Flyers</button>
+				 	<button type="button" class="btn btn-default space" data-team="knicks">New York Knicks</button>
+		</div>
+		<div class="col-md-8 text-center border" id="images">
+		</div>
+	</div>
+</div>
+
+<!--End of Container-->
+
+<script type="text/javascript" src="ajax.jss"></script>
+
+</body>
+
+</html>

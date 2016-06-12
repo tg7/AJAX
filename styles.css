@@ -1,0 +1,29 @@
+#top {
+
+	background-color: green;
+	color: white;
+
+}
+
+#images {
+
+border-left: solid black 2px;
+
+}
+
+/*.border {
+	border: black solid 2px;
+
+}*/
+
+h1, h4 {
+
+	font-family: 'Changa One', cursive; 
+
+}
+
+.space {
+
+	margin: 10px 5px 5px 5px;
+}
+
